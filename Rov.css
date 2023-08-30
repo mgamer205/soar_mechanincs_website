@@ -7,16 +7,16 @@ body {
 .heading {
     text-align: center;
     height: 800px;
-    background-color: #0057a0;
+    background-color: #fff;
 }
 
 .title {
-    color: #fff;
+    color: #000;
     font-size: 1000%;
 }
 
 .subtitle {
-    color: #d6d4d4;
+    color: #000;
 }
 
 .main {
@@ -24,7 +24,7 @@ body {
     line-height: 1.5;
     color: #fff;
     font-size: larger;
-    margin: 10px;
+    margin: 10;
 }
 
 .paragraph1 {
@@ -45,7 +45,7 @@ body {
 }
 
 .tempheading {
-    margin: 10px;
+    margin: 10;
 }
 
 .footer {
@@ -114,7 +114,6 @@ li a:hover:not(.active) {
 /* Clear floats after the columns */
 .submain{
     display: table;
-    background-color: #fff;
     margin: 0;
 }
 
@@ -151,11 +150,6 @@ li a:hover:not(.active) {
     float: right;
     margin-top: 20px;
     border-radius: 10px;
-}
-
-.images {
-    border-radius:50% ;
-    object-fit: cover;
 }
 
 .people {
