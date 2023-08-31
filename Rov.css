@@ -64,19 +64,22 @@ iframe {
     margin-right: auto;
 }
 
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other on smaller screens (600px wide or less) */
+@media screen and (max-width: 600px) {
+    iframe {
+      width: 500
+    }
+}
+
 .submain2 {
     background-color: #737373;
-    background-size: cover;
     color: #000;
-    vertical-align: middle;
+    text-align: center;
 }
 
 .content {
     margin: 20px;
-    text-align: left;
-    height: 550px;
     font-size: xx-large;
-    vertical-align: middle;
 }
 
 ul {
@@ -89,6 +92,7 @@ ul {
   
 li {
     float: left;
+    overflow: hidden;
 }
   
 li a {
@@ -115,6 +119,13 @@ li a:hover:not(.active) {
 .submain{
     display: table;
     margin: 0;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other on smaller screens (600px wide or less) */
+@media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
 }
 
 .fa {
@@ -147,7 +158,6 @@ li a:hover:not(.active) {
     width: 700px;
     height: 500px;
     object-fit: cover;
-    float: right;
     margin-top: 20px;
     border-radius: 10px;
 }
@@ -161,6 +171,12 @@ li a:hover:not(.active) {
     width: 22.5%;
     padding: 15px;
     color:  #fff;
+}
+
+@media screen and (max-width: 500px) {
+    .column2 {
+      width: 100%;
+    }
 }
 
 .objective {
